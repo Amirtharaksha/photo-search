@@ -1,0 +1,11 @@
+﻿backend/.env
+frontend/.env
+backend/venv
+frontend/node_modules
+backend/__pycache__
+backend/chroma_db
+backend/uploads
+frontend/dist
+.vscode
+.DS_Store
+Thumbs.db
