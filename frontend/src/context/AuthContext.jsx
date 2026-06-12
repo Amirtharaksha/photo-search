@@ -24,7 +24,7 @@ export function AuthProvider({ children }) {
   const signInWithGoogle = () => {
     supabase.auth.signInWithOAuth({
       provider: 'google',
-      options: { redirectTo: 'http://localhost:5173/auth/callback' }
+      options: { redirectTo: 'https://photo-search-beryl.vercel.app/auth/callback' }
     })
   }
 
