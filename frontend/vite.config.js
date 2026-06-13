@@ -4,7 +4,7 @@ export default defineConfig({
   plugins: [react()],
   server: {
     proxy: {
-      '/uploads': { target: 'http://localhost:8000', changeOrigin: true },
+      '/uploads': { target: 'https://amirtharaksha1234-photosearch-backend.hf.space', changeOrigin: true },
     }
   }
 })

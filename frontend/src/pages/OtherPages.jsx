@@ -6,7 +6,7 @@ import PhotoGrid from '../components/PhotoGrid'
 import PhotoCard from '../components/PhotoCard'
 import api from '../api'
 
-const BASE = 'http://localhost:8000'
+const BASE = import.meta.env.VITE_API_URL
 
 // ── Favorites ──────────────────────────────────────────────────────────────
 

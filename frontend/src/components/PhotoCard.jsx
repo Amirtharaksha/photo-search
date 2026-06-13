@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Heart, Trash2, Share2, ZoomIn, Plus } from 'lucide-react'
 import api from '../api'
 
-const BASE = 'http://localhost:8000'
+const BASE = import.meta.env.VITE_API_URL
 
 export default function PhotoCard({ photo, onDelete, onFavoriteToggle, onShare, compact = false }) {
   const [hovered, setHovered] = useState(false)
